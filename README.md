@@ -26,7 +26,7 @@ DATABASE_USERNAME=o nome do usuário do banco de dados <br>
 DATABASE_PASSWORD=a senha do banco de dados <br>
 TOKEN_SECRET=vários caracteres aleatórios para que o bcryptjs possa gerar o hash a partir da senha informada pelo usuário.<br>
 TOKEN_EXPIRATION=tempo de expiração do token do usuário gerado (exemplos: 7d, 5d, 1d; para 7 dias, 5 dias e 1 dia  respectivamente).
-APP_URL=http://localhost:3001
+APP_URL=http://localhost:3001 <br>
 APP_PORT=3001
 
 OBS: A princípio, eu deixe a porta padrão da API como 3001 (a porta onde o frontend deve fazer as requisições). Mas caso necessário, pode se alterar.
