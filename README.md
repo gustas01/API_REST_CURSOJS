@@ -22,13 +22,26 @@ OBS: O NodeJS e o PostgresSQL devem estar instalados no ambiente onde será exec
 2º passo - Preencha o arquivo .env que está dentro da pasta raiz  do proejeto com todas as informações que pedem lá, colocando o valor logo após o sinal de igualdade, sem aspas. Que são:<br> 
 
 ```bash
-DATABASE=o nome do banco que usará para salvar os dados (criado no passo anterior) <br>
-DATABASE_PORT=a porta onde seu banco está ounvido as requisições <br>
-DATABASE_USERNAME=o nome do usuário do banco de dados <br>
-DATABASE_PASSWORD=a senha do banco de dados <br>
-TOKEN_SECRET=vários caracteres aleatórios para que o bcryptjs possa gerar o hash a partir da senha informada pelo usuário.<br>
-TOKEN_EXPIRATION=tempo de expiração do token do usuário gerado (exemplos: 7d, 5d, 1d; para 7 dias, 5 dias e 1 dia  respectivamente).<br>
-APP_URL=http://localhost:3001 <br>
+# o nome do banco que usará para salvar os dados (criado no passo anterior)
+DATABASE=
+
+# a porta onde seu banco está ounvido as requisições
+DATABASE_PORT=
+
+# o nome do usuário do banco de dados
+DATABASE_USERNAME=
+
+# a senha do banco de dados
+DATABASE_PASSWORD=
+
+# vários caracteres aleatórios para que o bcryptjs possa gerar o hash a partir da senha informada pelo usuário.
+TOKEN_SECRET=
+
+# tempo de expiração do token do usuário gerado (exemplos: 7d, 5d, 1d; para 7 dias e 5 dias respectivamente).
+TOKEN_EXPIRATION=
+
+APP_URL=http://localhost:3001
+
 APP_PORT=3001 
 ```
 
