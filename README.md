@@ -11,8 +11,8 @@ Uma API Rest onde se manipula dados de alunos de uma escola.  <br>
 E para manipular esses dados, é necessário estar logado no sistema com algum usuário, cujos dados são: <br>
 <img src="imgs-readme/User.png" />
 
-O procedimento de autenticação de usuários é feito usando um JWT gerado quando o usuário é criado usando a biblioteca jsonwebtoken. <br>
-Todos os passwords sofrem um hash para serem salvos no banco de dados, por motivos de segunraça, usando a biblioteca bcryptjs.
+O procedimento de autenticação de usuários é feito usando um JWT gerado quando o usuário é criado usando a biblioteca `jsonwebtoken`. <br>
+Todos os passwords sofrem um hash para serem salvos no banco de dados, por motivos de segunraça, usando a biblioteca `bcryptjs`.
 
 # Instruções para a execução do projeto. 
 OBS: O NodeJS e o PostgresSQL devem estar instalados no ambiente onde será executado o projeto.
@@ -45,7 +45,7 @@ APP_URL=http://localhost:3001
 APP_PORT=3001 
 ```
 
-> OBS: A princípio, eu deixe a porta padrão da API como 3001 (a porta onde o frontend deve fazer as requisições). Mas caso necessário, pode se alterar.
+* OBS: A princípio, eu deixei a porta padrão da API como 3001 (a porta onde o frontend deve fazer as requisições). Mas caso necessário, pode se alterar.
 
 3º passo - Instale as dependências do projeto, com o comando `npm i` em um terminal aberto na pasta raiz do projeto.
 
