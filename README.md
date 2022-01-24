@@ -45,7 +45,7 @@ APP_URL=http://localhost:3001
 APP_PORT=3001 
 ```
 
-OBS: A princípio, eu deixe a porta padrão da API como 3001 (a porta onde o frontend deve fazer as requisições). Mas caso necessário, pode se alterar.
+> OBS: A princípio, eu deixe a porta padrão da API como 3001 (a porta onde o frontend deve fazer as requisições). Mas caso necessário, pode se alterar.
 
 3º passo - Instale as dependências do projeto, com o comando `npm i` em um terminal aberto na pasta raiz do projeto.
 
