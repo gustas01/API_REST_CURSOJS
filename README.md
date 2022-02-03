@@ -50,3 +50,35 @@ APP_PORT=3001
 3º passo - Instale as dependências do projeto, com o comando `npm i` em um terminal aberto na pasta raiz do projeto.
 
 4º passo - Por fim, em um terminal aberto na parta raiz do projeto, execute o comando `npm run dev` para que a API comece a escutar as requisições.
+
+
+# Documetação da API
+
+<h2>Rotas para alunos</h2>
+OBS: O `http://localhost:3001/` é a URL base para executar o projeto localmente na porta 3001. Mesmo assim acabei colocando em todas as rotas abaixo
+para evitar qualquer confusão. <br><br>
+
+```bash
+GET - Listagem de todos os alunos salvos no banco.
+http://localhost:3001/alunos/
+
+# Os dados do aluno a ser criado devem ser passados como JSON no corpo da requisição.
+POST - Salvar aluno no banco - USUÁRIO DEVE ESTAR LOGADO
+http://localhost:3001/alunos/
+
+# Em que o :id é o id do aluno salvo na base de dados.
+GET - Exibir um aluno em específico
+http://localhost:3001/alunos/:id
+
+# Em que o :id é o id do aluno salvo na base de dados.
+PUT - Atualizar um aluno em específico - USUÁRIO DEVE ESTAR LOGADO
+http://localhost:3001/alunos/:id
+
+# Em que o :id é o id do aluno salvo na base de dados. 
+DEL - Apagar um aluno em específico - USUÁRIO DEVE ESTAR LOGADO
+http://localhost:3001/alunos/:id
+
+```
+
+<h2>Rotas para usuário</h2>
+As rotas para usuários são as mesmas das dos alunos, porém substituindo 'alunos' por 'users' na URL.
